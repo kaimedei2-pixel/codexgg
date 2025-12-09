@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeX.gg</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+    }
+    header {
+      background: #ff6a00;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: #1b1b1b;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 100, 0, 0.2);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .buy-btn {
+      background: #ff6a00;
+      color: #000;
+      border: none;
+      padding: 12px 18px;
+      font-size: 16px;
+      margin-top: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      text-align: center;
+      background: #111;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>CodeX.gg</header>
+
+  <div class="container">
+    <h2>Produtos em Destaque</h2>
+    <div class="grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200/ff6a00/000?text=Produto+1" alt="Produto 1" />
+        <h3>Produto 1</h3>
+        <p>Descrição curta do produto.</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200/ff6a00/000?text=Produto+2" alt="Produto 2" />
+        <h3>Produto 2</h3>
+        <p>Descrição curta do produto.</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200/ff6a00/000?text=Produto+3" alt="Produto 3" />
+        <h3>Produto 3</h3>
+        <p>Descrição curta do produto.</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 CodeX.gg — Todos os direitos reservados</footer>
+</body>
+</html>
